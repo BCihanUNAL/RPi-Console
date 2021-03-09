@@ -1,0 +1,1128 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/arm-linux-gnueabihf/lib/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o (__libc_csu_init)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libpthread.so.0               ./Src/server_connection.o (close@@GLIBC_2.4)
+libc.so.6                     ./Src/client_connection.o (socket@@GLIBC_2.4)
+ld-linux-armhf.so.3           ./Src/client_connection.o (__stack_chk_guard@@GLIBC_2.4)
+
+Allocating common symbols
+Common symbol       size              file
+
+mutex               0x18              ./Src/main.o
+serv_addr           0x10              ./Src/main.o
+tmp_file            0x4               ./Src/main.o
+args                0x50              ./Src/main.o
+threads             0x14              ./Src/main.o
+cl_addr             0x10              ./Src/client_connection.o
+he                  0x4               ./Src/client_connection.o
+sockfd              0x4               ./Src/client_connection.o
+clientfdlist        0x14              ./Src/main.o
+clientfdmask        0x14              ./Src/main.o
+
+Discarded input sections
+
+ .rodata.cst4   0x0000000000000000        0x4 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+ .ARM.extab     0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtbeginS.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/client_connection.o
+ .text          0x0000000000000000        0x0 ./Src/client_connection.o
+ .data          0x0000000000000000        0x0 ./Src/client_connection.o
+ .bss           0x0000000000000000        0x0 ./Src/client_connection.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./Src/client_connection.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
+ .text          0x0000000000000000        0x0 ./Src/main.o
+ .bss           0x0000000000000000        0x0 ./Src/main.o
+ .debug_macro   0x0000000000000000      0xaae ./Src/main.o
+ .debug_macro   0x0000000000000000       0x22 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/main.o
+ .debug_macro   0x0000000000000000      0x19e ./Src/main.o
+ .debug_macro   0x0000000000000000      0x168 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/main.o
+ .debug_macro   0x0000000000000000       0x4a ./Src/main.o
+ .debug_macro   0x0000000000000000       0x70 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x34 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x97 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x5e ./Src/main.o
+ .debug_macro   0x0000000000000000       0xe2 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x20 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x28 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x58 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/main.o
+ .debug_macro   0x0000000000000000      0x1cc ./Src/main.o
+ .debug_macro   0x0000000000000000       0x46 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x2e ./Src/main.o
+ .debug_macro   0x0000000000000000       0x27 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/main.o
+ .debug_macro   0x0000000000000000       0x28 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x4c ./Src/main.o
+ .debug_macro   0x0000000000000000       0x70 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x17 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x12 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x12 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x4c ./Src/main.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/main.o
+ .debug_macro   0x0000000000000000       0x2e ./Src/main.o
+ .debug_macro   0x0000000000000000       0x5e ./Src/main.o
+ .debug_macro   0x0000000000000000       0x27 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x3a ./Src/main.o
+ .debug_macro   0x0000000000000000      0x2f7 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/main.o
+ .debug_macro   0x0000000000000000       0xf9 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x34 ./Src/main.o
+ .debug_macro   0x0000000000000000      0x196 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x4a ./Src/main.o
+ .debug_macro   0x0000000000000000       0x22 ./Src/main.o
+ .debug_macro   0x0000000000000000      0x38e ./Src/main.o
+ .debug_macro   0x0000000000000000      0x1c0 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x5f ./Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/main.o
+ .debug_macro   0x0000000000000000      0x10c ./Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x3a ./Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x97 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x52 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x4c ./Src/main.o
+ .debug_macro   0x0000000000000000       0x2e ./Src/main.o
+ .debug_macro   0x0000000000000000       0x28 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x79 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x28 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/main.o
+ .debug_macro   0x0000000000000000       0xee ./Src/main.o
+ .debug_macro   0x0000000000000000       0x94 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/main.o
+ .debug_macro   0x0000000000000000       0xb4 ./Src/main.o
+ .debug_macro   0x0000000000000000      0x13a ./Src/main.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/main.o
+ .debug_macro   0x0000000000000000       0x22 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x12 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x64 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x19 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x7d ./Src/main.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x12 ./Src/main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .group         0x0000000000000000        0xc ./Src/server_connection.o
+ .text          0x0000000000000000        0x0 ./Src/server_connection.o
+ .bss           0x0000000000000000        0x0 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000      0xaae ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x22 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000      0x19e ./Src/server_connection.o
+ .debug_macro   0x0000000000000000      0x168 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x4a ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x70 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x34 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x97 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x5e ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0xe2 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x20 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x28 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x58 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000      0x1cc ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x46 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x2e ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x27 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x3a ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x97 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x52 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x4c ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x2e ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x28 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x79 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x28 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x4c ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x12 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x12 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x28 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x4c ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x4c ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x2e ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x5e ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x27 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x70 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x17 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x3a ./Src/server_connection.o
+ .debug_macro   0x0000000000000000      0x2f7 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0xf9 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x34 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000      0x196 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x4a ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x22 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000      0x38e ./Src/server_connection.o
+ .debug_macro   0x0000000000000000      0x1c0 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x5f ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x70 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000      0x190 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x52 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x27 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x43 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000      0x824 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x20 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x5e ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x10 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x16 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x58 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x11 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x94 ./Src/server_connection.o
+ .debug_macro   0x0000000000000000       0x1c ./Src/server_connection.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./Src/server_connection.o
+ .data          0x0000000000000000        0x0 /usr/arm-linux-gnueabihf/lib/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000000000        0x0 /usr/arm-linux-gnueabihf/lib/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/arm-linux-gnueabihf/lib/libc_nonshared.a(elf-init.oS)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/crti.o
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtbeginS.o
+LOAD ./Src/client_connection.o
+LOAD ./Src/main.o
+LOAD ./Src/server_connection.o
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabihf/7/libgcc.a
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabihf/7/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabihf/7/libgcc_s.so.1
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabihf/7/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/libpthread.so
+START GROUP
+LOAD /usr/arm-linux-gnueabihf/lib/libpthread.so.0
+LOAD /usr/arm-linux-gnueabihf/lib/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/libc.so
+START GROUP
+LOAD /usr/arm-linux-gnueabihf/lib/libc.so.6
+LOAD /usr/arm-linux-gnueabihf/lib/libc_nonshared.a
+LOAD /usr/arm-linux-gnueabihf/lib/ld-linux-armhf.so.3
+END GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabihf/7/libgcc.a
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabihf/7/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabihf/7/libgcc_s.so.1
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabihf/7/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtendS.o
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x0))
+                0x0000000000000154                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.interp         0x0000000000000154       0x19
+ *(.interp)
+ .interp        0x0000000000000154       0x19 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+
+.note.ABI-tag   0x0000000000000170       0x20
+ .note.ABI-tag  0x0000000000000170       0x20 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+
+.note.gnu.build-id
+                0x0000000000000190       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000000190       0x24 linker stubs
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000001b4       0x18
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000001b4       0x18 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+
+.dynsym         0x00000000000001cc      0x320
+ *(.dynsym)
+ .dynsym        0x00000000000001cc      0x320 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+
+.dynstr         0x00000000000004ec      0x203
+ *(.dynstr)
+ .dynstr        0x00000000000004ec      0x203 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+
+.gnu.version    0x00000000000006f0       0x64
+ *(.gnu.version)
+ .gnu.version   0x00000000000006f0       0x64 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+
+.gnu.version_d  0x0000000000000754        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000754        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+
+.gnu.version_r  0x0000000000000754       0x70
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000754       0x70 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+
+.rel.dyn        0x00000000000007c4       0xf0
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x00000000000007c4        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+ .rel.text.client_start
+                0x00000000000007c4        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+ .rel.text.server_accept
+                0x00000000000007c4        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x00000000000007c4        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x00000000000007c4        0x8 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+ .rel.data      0x00000000000007cc       0x38 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000000804       0xa0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x00000000000008a4        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+                [!provide]                        PROVIDE (__rel_iplt_start = .)
+ *(.rel.iplt)
+ .rel.iplt      0x00000000000008a4        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+                [!provide]                        PROVIDE (__rel_iplt_end = .)
+ .rel.init_array
+                0x00000000000008a4        0x8 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+ .rel.fini_array
+                0x00000000000008ac        0x8 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+
+.rela.dyn       0x00000000000008b4        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+                [!provide]                        PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end = .)
+
+.rel.plt        0x00000000000008b4      0x150
+ *(.rel.plt)
+ .rel.plt       0x00000000000008b4      0x150 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init           0x0000000000000a04        0xc
+ *(SORT_NONE(.init))
+ .init          0x0000000000000a04        0x8 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/crti.o
+                0x0000000000000a04                _init
+ .init          0x0000000000000a0c        0x4 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/crtn.o
+
+.plt            0x0000000000000a10      0x20c
+ *(.plt)
+ .plt           0x0000000000000a10      0x20c /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+
+.iplt           0x0000000000000c1c        0x0
+ *(.iplt)
+ .iplt          0x0000000000000c1c        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+
+.text           0x0000000000000c1c      0xc24
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000000c1c       0x48 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+                0x0000000000000c1c                _start
+ .text          0x0000000000000c64       0x24 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/crti.o
+ .text          0x0000000000000c88       0xa4 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtbeginS.o
+ .text.client_start
+                0x0000000000000d2c      0x11c ./Src/client_connection.o
+                0x0000000000000d2c                client_start
+ .text.client_communicate
+                0x0000000000000e48       0xb0 ./Src/client_connection.o
+                0x0000000000000e48                client_communicate
+ .text.kill_signal
+                0x0000000000000ef8       0x70 ./Src/client_connection.o
+                0x0000000000000ef8                kill_signal
+ .text.main     0x0000000000000f68      0x250 ./Src/main.o
+                0x0000000000000f68                main
+ .text.server_start
+                0x00000000000011b8      0x1ac ./Src/server_connection.o
+                0x00000000000011b8                server_start
+ .text.server_accept
+                0x0000000000001364      0x108 ./Src/server_connection.o
+                0x0000000000001364                server_accept
+ .text.server_communicate
+                0x000000000000146c      0x390 ./Src/server_connection.o
+                0x000000000000146c                server_communicate
+ .text          0x00000000000017fc       0x44 /usr/arm-linux-gnueabihf/lib/libc_nonshared.a(elf-init.oS)
+                0x00000000000017fc                __libc_csu_init
+                0x000000000000183c                __libc_csu_fini
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x0000000000001840        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x0000000000001840        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x0000000000001840        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x0000000000001840        0x0 linker stubs
+
+.fini           0x0000000000001840        0x8
+ *(SORT_NONE(.fini))
+ .fini          0x0000000000001840        0x4 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/crti.o
+                0x0000000000001840                _fini
+ .fini          0x0000000000001844        0x4 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata         0x0000000000001848      0x279
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000000000001848       0x5d ./Src/client_connection.o
+ *fill*         0x00000000000018a5        0x3 
+ .rodata        0x00000000000018a8       0xf9 ./Src/main.o
+ *fill*         0x00000000000019a1        0x3 
+ .rodata        0x00000000000019a4      0x11d ./Src/server_connection.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                [!provide]                        PROVIDE (__exidx_start = .)
+
+.ARM.exidx      0x0000000000001ac4        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x0000000000001ac4        0x8 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+                [!provide]                        PROVIDE (__exidx_end = .)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000001acc        0x4
+ *(.eh_frame)
+ .eh_frame      0x0000000000001acc        0x4 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000011dec                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000011dec        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000011dec        0x4
+                0x0000000000011dec                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000011dec        0x4 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtbeginS.o
+                0x0000000000011df0                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000011df0        0x4
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000011df0        0x4 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtbeginS.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000011df4        0x0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000011df4        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+
+.dynamic        0x0000000000011df4      0x108
+ *(.dynamic)
+ .dynamic       0x0000000000011df4      0x108 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+                0x0000000000011df4                _DYNAMIC
+
+.got            0x0000000000011efc      0x104
+ *(.got.plt)
+ .got.plt       0x0000000000011efc       0xb4 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+                0x0000000000011efc                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x0000000000011fb0        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+ *(.got)
+ .got           0x0000000000011fb0       0x50 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+ *(.igot)
+                0x0000000000012000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.data           0x0000000000012000       0x30
+                [!provide]                        PROVIDE (__data_start = .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x0000000000012000        0x4 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtbeginS.o
+                0x0000000000012000                __dso_handle
+ .data          0x0000000000012004       0x20 ./Src/main.o
+ .data          0x0000000000012024        0xc ./Src/server_connection.o
+
+.tm_clone_table
+                0x0000000000012030        0x0
+ .tm_clone_table
+                0x0000000000012030        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtbeginS.o
+ .tm_clone_table
+                0x0000000000012030        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtendS.o
+
+.data1
+ *(.data1)
+                0x0000000000012030                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x0000000000012030                . = .
+                0x0000000000012030                __bss_start = .
+                0x0000000000012030                __bss_start__ = .
+
+.bss            0x0000000000012030       0xd4
+ *(.dynbss)
+ .dynbss        0x0000000000012030        0x0 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000012030        0x1 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtbeginS.o
+ *(COMMON)
+ *fill*         0x0000000000012031        0x3 
+ COMMON         0x0000000000012034       0x18 ./Src/client_connection.o
+                0x0000000000012034                cl_addr
+                0x0000000000012044                he
+                0x0000000000012048                sockfd
+ COMMON         0x000000000001204c       0xb8 ./Src/main.o
+                0x000000000001204c                mutex
+                0x0000000000012064                serv_addr
+                0x0000000000012074                tmp_file
+                0x0000000000012078                args
+                0x00000000000120c8                threads
+                0x00000000000120dc                clientfdlist
+                0x00000000000120f0                clientfdmask
+                0x0000000000012104                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000012104                _bss_end__ = .
+                0x0000000000012104                __bss_end__ = .
+                0x0000000000012104                . = ALIGN (0x4)
+                0x0000000000012104                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000000012104                . = ALIGN (0x4)
+                0x0000000000012104                __end__ = .
+                0x0000000000012104                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000012104                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x30
+ *(.comment)
+ .comment       0x0000000000000000       0x30 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtbeginS.o
+                                         0x31 (size before relaxing)
+ .comment       0x0000000000000030       0x31 ./Src/client_connection.o
+ .comment       0x0000000000000030       0x31 ./Src/main.o
+ .comment       0x0000000000000030       0x31 ./Src/server_connection.o
+ .comment       0x0000000000000030       0x31 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtendS.o
+
+.ARM.attributes
+                0x0000000000000000       0x37
+ .ARM.attributes
+                0x0000000000000000       0x33 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/Scrt1.o
+ .ARM.attributes
+                0x0000000000000033       0x27 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/crti.o
+ .ARM.attributes
+                0x000000000000005a       0x33 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtbeginS.o
+ .ARM.attributes
+                0x000000000000008d       0x37 ./Src/client_connection.o
+ .ARM.attributes
+                0x00000000000000c4       0x37 ./Src/main.o
+ .ARM.attributes
+                0x00000000000000fb       0x37 ./Src/server_connection.o
+ .ARM.attributes
+                0x0000000000000132       0x35 /usr/arm-linux-gnueabihf/lib/libc_nonshared.a(elf-init.oS)
+ .ARM.attributes
+                0x0000000000000167       0x33 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/crtendS.o
+ .ARM.attributes
+                0x000000000000019a       0x27 /usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/lib/../lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x80
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x30 ./Src/client_connection.o
+ .debug_aranges
+                0x0000000000000030       0x20 ./Src/main.o
+ .debug_aranges
+                0x0000000000000050       0x30 ./Src/server_connection.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x17f2
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x692 ./Src/client_connection.o
+ .debug_info    0x0000000000000692      0x7fa ./Src/main.o
+ .debug_info    0x0000000000000e8c      0x966 ./Src/server_connection.o
+
+.debug_abbrev   0x0000000000000000      0x4de
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x1af ./Src/client_connection.o
+ .debug_abbrev  0x00000000000001af      0x17d ./Src/main.o
+ .debug_abbrev  0x000000000000032c      0x1b2 ./Src/server_connection.o
+
+.debug_line     0x0000000000000000     0x1793
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x7ae ./Src/client_connection.o
+ .debug_line    0x00000000000007ae      0x87a ./Src/main.o
+ .debug_line    0x0000000000001028      0x76b ./Src/server_connection.o
+
+.debug_frame    0x0000000000000000      0x13c
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x80 ./Src/client_connection.o
+ .debug_frame   0x0000000000000080       0x38 ./Src/main.o
+ .debug_frame   0x00000000000000b8       0x84 ./Src/server_connection.o
+
+.debug_str      0x0000000000000000    0x1024d
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0xb8ce ./Src/client_connection.o
+                                       0xbb3f (size before relaxing)
+ .debug_str     0x000000000000b8ce     0x48da ./Src/main.o
+                                      0x1035c (size before relaxing)
+ .debug_str     0x00000000000101a8       0xa5 ./Src/server_connection.o
+                                       0xf056 (size before relaxing)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0x68
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x20 ./Src/client_connection.o
+ .debug_ranges  0x0000000000000020       0x28 ./Src/main.o
+ .debug_ranges  0x0000000000000048       0x20 ./Src/server_connection.o
+
+.debug_macro    0x0000000000000000     0x492d
+ *(.debug_macro)
+ .debug_macro   0x0000000000000000      0x517 ./Src/client_connection.o
+ .debug_macro   0x0000000000000517      0xaae ./Src/client_connection.o
+ .debug_macro   0x0000000000000fc5       0x22 ./Src/client_connection.o
+ .debug_macro   0x0000000000000fe7       0x10 ./Src/client_connection.o
+ .debug_macro   0x0000000000000ff7      0x19e ./Src/client_connection.o
+ .debug_macro   0x0000000000001195      0x168 ./Src/client_connection.o
+ .debug_macro   0x00000000000012fd       0x1c ./Src/client_connection.o
+ .debug_macro   0x0000000000001319       0x4a ./Src/client_connection.o
+ .debug_macro   0x0000000000001363       0x70 ./Src/client_connection.o
+ .debug_macro   0x00000000000013d3       0x34 ./Src/client_connection.o
+ .debug_macro   0x0000000000001407       0x10 ./Src/client_connection.o
+ .debug_macro   0x0000000000001417       0x97 ./Src/client_connection.o
+ .debug_macro   0x00000000000014ae       0x5e ./Src/client_connection.o
+ .debug_macro   0x000000000000150c       0xe2 ./Src/client_connection.o
+ .debug_macro   0x00000000000015ee       0x16 ./Src/client_connection.o
+ .debug_macro   0x0000000000001604       0x20 ./Src/client_connection.o
+ .debug_macro   0x0000000000001624       0x28 ./Src/client_connection.o
+ .debug_macro   0x000000000000164c       0x58 ./Src/client_connection.o
+ .debug_macro   0x00000000000016a4       0x10 ./Src/client_connection.o
+ .debug_macro   0x00000000000016b4      0x1cc ./Src/client_connection.o
+ .debug_macro   0x0000000000001880       0x46 ./Src/client_connection.o
+ .debug_macro   0x00000000000018c6       0x2e ./Src/client_connection.o
+ .debug_macro   0x00000000000018f4       0x27 ./Src/client_connection.o
+ .debug_macro   0x000000000000191b       0x10 ./Src/client_connection.o
+ .debug_macro   0x000000000000192b       0x12 ./Src/client_connection.o
+ .debug_macro   0x000000000000193d       0x10 ./Src/client_connection.o
+ .debug_macro   0x000000000000194d       0x4c ./Src/client_connection.o
+ .debug_macro   0x0000000000001999       0x12 ./Src/client_connection.o
+ .debug_macro   0x00000000000019ab       0x1c ./Src/client_connection.o
+ .debug_macro   0x00000000000019c7       0x28 ./Src/client_connection.o
+ .debug_macro   0x00000000000019ef       0x10 ./Src/client_connection.o
+ .debug_macro   0x00000000000019ff       0x10 ./Src/client_connection.o
+ .debug_macro   0x0000000000001a0f       0x4c ./Src/client_connection.o
+ .debug_macro   0x0000000000001a5b       0x1c ./Src/client_connection.o
+ .debug_macro   0x0000000000001a77       0x10 ./Src/client_connection.o
+ .debug_macro   0x0000000000001a87       0x4c ./Src/client_connection.o
+ .debug_macro   0x0000000000001ad3       0x1c ./Src/client_connection.o
+ .debug_macro   0x0000000000001aef       0x2e ./Src/client_connection.o
+ .debug_macro   0x0000000000001b1d       0x5e ./Src/client_connection.o
+ .debug_macro   0x0000000000001b7b       0x27 ./Src/client_connection.o
+ .debug_macro   0x0000000000001ba2       0x70 ./Src/client_connection.o
+ .debug_macro   0x0000000000001c12       0x17 ./Src/client_connection.o
+ .debug_macro   0x0000000000001c29       0x3a ./Src/client_connection.o
+ .debug_macro   0x0000000000001c63      0x2f7 ./Src/client_connection.o
+ .debug_macro   0x0000000000001f5a       0x1c ./Src/client_connection.o
+ .debug_macro   0x0000000000001f76       0xf9 ./Src/client_connection.o
+ .debug_macro   0x000000000000206f       0x34 ./Src/client_connection.o
+ .debug_macro   0x00000000000020a3      0x196 ./Src/client_connection.o
+ .debug_macro   0x0000000000002239       0x4a ./Src/client_connection.o
+ .debug_macro   0x0000000000002283       0x22 ./Src/client_connection.o
+ .debug_macro   0x00000000000022a5      0x38e ./Src/client_connection.o
+ .debug_macro   0x0000000000002633      0x1c0 ./Src/client_connection.o
+ .debug_macro   0x00000000000027f3       0x5f ./Src/client_connection.o
+ .debug_macro   0x0000000000002852       0x10 ./Src/client_connection.o
+ .debug_macro   0x0000000000002862      0x10c ./Src/client_connection.o
+ .debug_macro   0x000000000000296e       0x10 ./Src/client_connection.o
+ .debug_macro   0x000000000000297e       0x3a ./Src/client_connection.o
+ .debug_macro   0x00000000000029b8       0x10 ./Src/client_connection.o
+ .debug_macro   0x00000000000029c8       0x10 ./Src/client_connection.o
+ .debug_macro   0x00000000000029d8       0x16 ./Src/client_connection.o
+ .debug_macro   0x00000000000029ee       0x97 ./Src/client_connection.o
+ .debug_macro   0x0000000000002a85       0x52 ./Src/client_connection.o
+ .debug_macro   0x0000000000002ad7       0x4c ./Src/client_connection.o
+ .debug_macro   0x0000000000002b23       0x2e ./Src/client_connection.o
+ .debug_macro   0x0000000000002b51       0x28 ./Src/client_connection.o
+ .debug_macro   0x0000000000002b79       0x79 ./Src/client_connection.o
+ .debug_macro   0x0000000000002bf2       0x28 ./Src/client_connection.o
+ .debug_macro   0x0000000000002c1a       0x10 ./Src/client_connection.o
+ .debug_macro   0x0000000000002c2a       0x10 ./Src/client_connection.o
+ .debug_macro   0x0000000000002c3a       0xee ./Src/client_connection.o
+ .debug_macro   0x0000000000002d28       0x94 ./Src/client_connection.o
+ .debug_macro   0x0000000000002dbc       0x10 ./Src/client_connection.o
+ .debug_macro   0x0000000000002dcc       0xb4 ./Src/client_connection.o
+ .debug_macro   0x0000000000002e80      0x13a ./Src/client_connection.o
+ .debug_macro   0x0000000000002fba       0x1c ./Src/client_connection.o
+ .debug_macro   0x0000000000002fd6       0x22 ./Src/client_connection.o
+ .debug_macro   0x0000000000002ff8       0x12 ./Src/client_connection.o
+ .debug_macro   0x000000000000300a       0x64 ./Src/client_connection.o
+ .debug_macro   0x000000000000306e       0x10 ./Src/client_connection.o
+ .debug_macro   0x000000000000307e       0x19 ./Src/client_connection.o
+ .debug_macro   0x0000000000003097       0x10 ./Src/client_connection.o
+ .debug_macro   0x00000000000030a7       0x7d ./Src/client_connection.o
+ .debug_macro   0x0000000000003124       0x16 ./Src/client_connection.o
+ .debug_macro   0x000000000000313a       0x16 ./Src/client_connection.o
+ .debug_macro   0x0000000000003150       0x12 ./Src/client_connection.o
+ .debug_macro   0x0000000000003162      0x600 ./Src/main.o
+ .debug_macro   0x0000000000003762       0x16 ./Src/main.o
+ .debug_macro   0x0000000000003778       0x1c ./Src/main.o
+ .debug_macro   0x0000000000003794       0x5e ./Src/main.o
+ .debug_macro   0x00000000000037f2       0x10 ./Src/main.o
+ .debug_macro   0x0000000000003802       0x16 ./Src/main.o
+ .debug_macro   0x0000000000003818       0x58 ./Src/main.o
+ .debug_macro   0x0000000000003870       0x11 ./Src/main.o
+ .debug_macro   0x0000000000003881       0x94 ./Src/main.o
+ .debug_macro   0x0000000000003915       0x4d ./Src/main.o
+ .debug_macro   0x0000000000003962       0x70 ./Src/main.o
+ .debug_macro   0x00000000000039d2      0x190 ./Src/main.o
+ .debug_macro   0x0000000000003b62       0x52 ./Src/main.o
+ .debug_macro   0x0000000000003bb4       0x27 ./Src/main.o
+ .debug_macro   0x0000000000003bdb       0x43 ./Src/main.o
+ .debug_macro   0x0000000000003c1e      0x824 ./Src/main.o
+ .debug_macro   0x0000000000004442       0x20 ./Src/main.o
+ .debug_macro   0x0000000000004462       0x1c ./Src/main.o
+ .debug_macro   0x000000000000447e      0x4af ./Src/server_connection.o
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(RPi-Console.elf elf32-littlearm)
