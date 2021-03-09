@@ -1,6 +1,0 @@
-eclipse.preferences.version=1
-environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.502538818/PATH/delimiter=\:
-environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.502538818/PATH/operation=replace
-environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.502538818/PATH/value=/usr/bin/arm-linux-gnueabihf-gcc\:/home/cihan/.local/bin\:/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/usr/games\:/usr/local/games\:/snap/bin
-environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.502538818/append=true
-environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.502538818/appendContributed=true
