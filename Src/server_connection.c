@@ -1,8 +1,14 @@
 #include "../Inc/server_connection.h"
 
-void server_start(){
-	char *tmp_dir[] = {"mkdir", "/tmp/RPi-Console", NULL};
-	execvp(tmp_dir[0], tmp_dir);
+void server_start(char *name, char *password, int ftp_enabled){
+	server_name = name;
+	server_password = password;
+	is_ftp_enabled = ftp_enabled;
+	if(!fork()){
+		char *tmp_dir[] = {"mkdir", "/tmp/RPi-Console", NULL};
+		execvp(tmp_dir[0], tmp_dir);
+		exit(0);
+	}
 	if(fopen("/tmp/RPi-Console/pid.dat", "r")){
 		puts("Bir baska sunucu prosesi calisiyor. Yine de giris yapmak isterseniz programi -c flagi ile calistirin");
 		exit(1);
@@ -31,7 +37,7 @@ void server_start(){
 		exit(1);
 	}
 	if(!fork()){
-		fprintf(tmp_file, "%d", (int)getpid());
+		fprintf(tmp_file, "%d\n", (int)getpid());
 		server_accept(NULL);
 	}
 }
@@ -68,19 +74,41 @@ void* server_communicate(void* params){
 	uint8_t command_buffer[512];
 	uint8_t output_buffer[4096];
 
+	memset(command_buffer, 0, sizeof(command_buffer));
+	memset(output_buffer, 0, sizeof(command_buffer));
+	recv(clientfd, command_buffer, sizeof(command_buffer), 0); //recv username, passwd
+
+	char *user_name = strtok(command_buffer, " ");
+	char *user_password = strtok(NULL, "\0");
+
+	if(!strcmp(user_name, server_name) && !strcmp(user_password, server_password)){
+		output_buffer[0] = 1;
+		if(is_ftp_enabled)
+			output_buffer[1] = 1;
+	}
+
+	send(clientfd, output_buffer, sizeof(output_buffer), 0);
+
+	if(strcmp(user_name, server_name) || strcmp(user_password, server_password)){
+
+		close(clientfdmask[indice]);
+		return NULL;
+	}
+
+
 	while(1){
 		for(int i = 0; i < MAX_ARGS; i++){
 			args[i] = NULL;
 		}
 		memset(output_buffer, 0, sizeof(output_buffer));
-		recv(clientfd, command_buffer, 512, 0);//flag yok
+		recv(clientfd, command_buffer, sizeof(command_buffer), 0);//flag yok
 		//printf("%s\n", command_buffer);
 		char *command = strtok(command_buffer, " ");
 		args[0] = command;
 		if(!strcmp(command, "kill_console")){
-			pthread_mutex_lock(&mutex);
-			clientfdmask[indice] = 0; //mutex
+			pthread_mutex_lock(&mutex); //mutex
 			close(clientfdmask[indice]);
+			clientfdmask[indice] = 0;
 			pthread_mutex_unlock(&mutex);
 			pthread_exit((void*)0); //finish thread
 		}
@@ -113,4 +141,5 @@ void* server_communicate(void* params){
 			send(clientfd, output_buffer, sizeof(output_buffer), 0);
 		}
 	}
+	return NULL;
 }

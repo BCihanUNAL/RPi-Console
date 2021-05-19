@@ -16,6 +16,8 @@ struct hostent *he;
 
 void client_start();
 
+int client_verify(char *user_id, char *user_password);
+
 void client_communicate();
 
 void kill_signal(int signo);

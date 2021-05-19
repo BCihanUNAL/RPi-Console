@@ -26,6 +26,21 @@ void client_start(char *host_name){
 	signal(SIGABRT, kill_signal);
 }
 
+int client_verify(char *user_id, char *user_password){
+	char output_buffer[512];
+	char input_buffer[4096];
+	char space = ' ';
+
+	memcpy(output_buffer, user_id, strlen(user_id)); //send username & passwd
+	memcpy(output_buffer + strlen(user_id), &space, sizeof(space));
+	memcpy(output_buffer + strlen(user_id) + sizeof(space), user_password, strlen(user_password));
+
+	send(sockfd, output_buffer, sizeof(output_buffer), 0);
+	recv(sockfd, input_buffer, sizeof(input_buffer), 0);
+
+	return input_buffer[0] | (2 * input_buffer[1]); //return result
+}
+
 void client_communicate(){
 	while(1){
 			char output_buffer[512];
@@ -46,5 +61,6 @@ void kill_signal(int signo){
 	char kill_msg[] = "kill_console";
 	memcpy(output_buffer, kill_msg, strlen(kill_msg));
 	send(sockfd, output_buffer, sizeof(output_buffer), 0);
+	close(sockfd);
 	exit(0);
 }
