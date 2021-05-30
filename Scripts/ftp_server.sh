@@ -10,11 +10,19 @@ then
 	
 fi
 
-mkdir /home/pi/ftp
-mkdir /home/pi/ftp/files
-chmod a-w /home/pi/ftp
-
 USER="pi"
+
+if [[ ! -e /home/${USER}/ftp ]]
+then
+	mkdir /home/${USER}/ftp
+fi
+
+if [[ ! -e /home/${USER}/ftp/files ]]
+then
+	mkdir -p /home/${USER}/ftp/files
+fi
+
+chmod a-w /home/pi/ftp
 
 if [[ "#####" != $(tail -1 /etc/vsftpd.conf) ]];
 then

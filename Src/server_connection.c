@@ -5,7 +5,7 @@ void server_start(char *name, char *password, int ftp_enabled){
 	server_password = password;
 	is_ftp_enabled = ftp_enabled;
 	if(!fork()){
-		char *tmp_dir[] = {"mkdir", "/tmp/RPi-Console", NULL};
+		char *tmp_dir[] = {"mkdir", "-p", "/tmp/RPi-Console", NULL};
 		execvp(tmp_dir[0], tmp_dir);
 		exit(0);
 	}
@@ -43,6 +43,9 @@ void server_start(char *name, char *password, int ftp_enabled){
 }
 
 void* server_accept(void* params){
+	signal(SIGINT, server_kill_signal);
+	signal(SIGQUIT, server_kill_signal);
+	signal(SIGABRT, server_kill_signal);
 	while(1){
 		struct sockaddr_in cl_addr;
 		socklen_t sin_size = sizeof(struct sockaddr_in);
@@ -90,7 +93,6 @@ void* server_communicate(void* params){
 	send(clientfd, output_buffer, sizeof(output_buffer), 0);
 
 	if(strcmp(user_name, server_name) || strcmp(user_password, server_password)){
-
 		close(clientfdmask[indice]);
 		return NULL;
 	}
@@ -102,7 +104,6 @@ void* server_communicate(void* params){
 		}
 		memset(output_buffer, 0, sizeof(output_buffer));
 		recv(clientfd, command_buffer, sizeof(command_buffer), 0);//flag yok
-		//printf("%s\n", command_buffer);
 		char *command = strtok(command_buffer, " ");
 		args[0] = command;
 		if(!strcmp(command, "kill_console")){
@@ -142,4 +143,16 @@ void* server_communicate(void* params){
 		}
 	}
 	return NULL;
+}
+
+void server_kill_signal(int signo){
+	uint8_t output_buffer[4096];
+	memset(output_buffer, 0, sizeof(output_buffer));
+	for(int i = 0; i < MAX_CLIENTS; i++){
+		if(clientfdmask[i]){
+			send(clientfdmask[i], output_buffer, sizeof(output_buffer), 0);
+			close(clientfdmask[i]);
+		}
+	}
+	exit(0);
 }

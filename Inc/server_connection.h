@@ -1,3 +1,6 @@
+#ifndef SERVER_SIDE
+#define SERVER_SIDE
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <arpa/inet.h>
@@ -6,6 +9,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <pthread.h>
+#include <signal.h>
 
 #define PORT 54306
 #define BACKLOG 5
@@ -31,3 +35,7 @@ int server_validate();
 void* server_accept(void*);
 
 void* server_communicate(void*);
+
+void server_kill_signal(int signo);
+
+#endif

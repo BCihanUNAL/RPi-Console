@@ -21,9 +21,9 @@ void client_start(char *host_name){
 		perror("Sunucuya baglanilamadi");
 		exit(1);
 	}
-	signal(SIGINT, kill_signal);
-	signal(SIGQUIT, kill_signal);
-	signal(SIGABRT, kill_signal);
+	signal(SIGINT, client_kill_signal);
+	signal(SIGQUIT, client_kill_signal);
+	signal(SIGABRT, client_kill_signal);
 }
 
 int client_verify(char *user_id, char *user_password){
@@ -42,21 +42,26 @@ int client_verify(char *user_id, char *user_password){
 }
 
 void client_communicate(){
+	char output_buffer[512];
+	char input_buffer[4096];
 	while(1){
-			char output_buffer[512];
-			char input_buffer[4096];
-			char *line;
+			char *line = NULL;
 			int line_len;
 			getline(&line, &line_len, stdin);
 			memcpy(output_buffer, line, line_len);
+			free(line);
 			output_buffer[line_len] = '\0';
 			send(sockfd, output_buffer, sizeof(output_buffer), 0);
 			recv(sockfd, input_buffer, sizeof(input_buffer), 0);
+			if(!input_buffer[0]){ //server kapandi ise 0 gonderecek
+				close(sockfd);
+				exit(3);
+			}
 			printf("%s\n", input_buffer);
 	}
 }
 
-void kill_signal(int signo){
+void client_kill_signal(int signo){
 	char output_buffer[512];
 	char kill_msg[] = "kill_console";
 	memcpy(output_buffer, kill_msg, strlen(kill_msg));

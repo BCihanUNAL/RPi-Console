@@ -1,3 +1,6 @@
+#ifndef CLIENT_SIDE
+#define CLIENT_SIDE
+
 #include <stdio.h>
 #include <arpa/inet.h>
 #include <netinet/in.h>
@@ -20,4 +23,6 @@ int client_verify(char *user_id, char *user_password);
 
 void client_communicate();
 
-void kill_signal(int signo);
+void client_kill_signal(int signo);
+
+#endif

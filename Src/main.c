@@ -60,11 +60,26 @@ int main(int argc, char *argv[]){
 
 			case 'c':
 				DUMMY(0);//c mutlu olsun diye
+
+				FILE *x = fopen("/tmp/RPi-Console/pid.dat", "r");
+				int pid;
+				char pid_str[6];
+				while(!feof(x)){
+					fscanf(x, "%d", &pid);
+					sprintf(pid_str, "%d", pid);
+					if(!fork()){
+						char *kill[] = {"sudo", "kill", "-9", pid_str, NULL};
+						execvp(kill[0], kill);
+						exit(0);
+					}
+				}
+
 				if(!fork()){
 					char *rm[] = {"rm", "-rf", "/tmp/RPi-Console", NULL};
 					execvp(rm[0], rm);
 					exit(0);
 				}
+				exit(0);
 				break;
 
 			case 'o':
@@ -107,7 +122,7 @@ int main(int argc, char *argv[]){
 		int ret_val = client_verify(user_name, user_password);
 		if((ret_val & 1)){ // username password uyustu
 			if((ret_val & 2)) // ftp sunucusu acik
-				printf("ftp sunucusuna ftp://%s adresinden erisebilirsiniz", server_addr);
+				printf("ftp sunucusuna ftp://%s adresinden erisebilirsiniz\n", server_addr);
 			client_communicate();
 		}
 	}
