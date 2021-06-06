@@ -13,6 +13,7 @@ void server_start(char *name, char *password, int ftp_enabled){
 		puts("Bir baska sunucu prosesi calisiyor. Yine de giris yapmak isterseniz programi -c flagi ile calistirin");
 		exit(1);
 	}
+	sleep(1);
 	tmp_file = fopen("/tmp/RPi-Console/pid.dat", "w");
 
 	memset(clientfdmask, 0, MAX_CLIENTS * sizeof(int));
